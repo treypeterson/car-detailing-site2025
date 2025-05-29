@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Summer 2025 Detailing Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+    }
+    h1, h2, h3 {
+      color: #444;
+    }
+    .package, .section {
+      margin-bottom: 2rem;
+    }
+    .code-box {
+      background-color: #eee;
+      padding: 0.5rem;
+      font-family: monospace;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Summer 2025 Detailing Services</h1>
+    <p>Professional. Reliable. Local through August 14th.</p>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>Full Detailing Services</h2>
+
+      <div class="package">
+        <h3>Full Interior Detail – $175</h3>
+        <ul>
+          <li>Full vacuum (carpets, seats, trunk)</li>
+          <li>Steam clean all surfaces, vents, and tight spaces</li>
+          <li>Shampoo carpets and seats / condition leather</li>
+          <li>Interior windows cleaned</li>
+          <li>Pet hair and stain removal included</li>
+          <li>Odor neutralizer</li>
+        </ul>
+      </div>
+
+      <div class="package">
+        <h3>Full Exterior Detail – $125</h3>
+        <ul>
+          <li>Hand wash and dry (2-bucket method)</li>
+          <li>Wheels and tires cleaned and shined</li>
+          <li>Iron remover and clay bar treatment</li>
+          <li>Exterior windows cleaned</li>
+          <li>Spray sealant for shine and paint protection</li>
+        </ul>
+      </div>
+
+      <div class="package">
+        <h3>Full Deep Clean (Interior + Exterior) – $250</h3>
+        <ul>
+          <li>Includes all services above</li>
+          <li>Ideal for restoring your car to a like-new feel</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Maintenance Plan – $50</h2>
+      <p><strong>Only available after a Full Deep Clean.</strong></p>
+      <ul>
+        <li>Full vacuum</li>
+        <li>Interior surface wipe-down</li>
+        <li>Interior and exterior window clean</li>
+        <li>Hand wash and dry</li>
+        <li>Wheels and tires cleaned and dressed</li>
+      </ul>
+      <p>One appointment every 30 days through <strong>August 14th</strong>.</p>
+      <p><strong>Access Code Required:</strong> Provided after your Deep Clean. Example:</p>
+      <div class="code-box">JOHNCMAINTAIN</div>
+    </div>
+
+    <div class="section">
+      <h2>"Pass It On" Referral Program</h2>
+      <ul>
+        <li>Give a friend $50 off their first Full Interior Detail or Full Deep Clean</li>
+        <li>You receive $25 off your next full service when they book</li>
+      </ul>
+      <p>Referral codes look like: <span class="code-box">REFJOHN50</span></p>
+      <p>Once their service is complete, you’ll receive your credit code: <span class="code-box">JOHNNEXT25</span></p>
+      <p><strong>Note:</strong> Cannot be used on the Maintenance Plan.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Business Name – All rights reserved</p>
+  </footer>
+</body>
+</html>
