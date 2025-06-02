@@ -3,117 +3,214 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Summer 2025 Detailing Services</title>
+  <title>Sponge N Hoses Auto Detailing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Lora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
       margin: 0;
-      padding: 0;
+      font-family: 'Lora', serif;
+      background-color: #fdfbe9;
+      color: #1e3327;
     }
-    header, footer {
-      background-color: #111;
-      color: white;
-      text-align: center;
-      padding: 1rem;
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #1e3327;
+      color: #fff;
     }
-    .container {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-      background-color: white;
+    header h1 {
+      font-family: 'Merriweather', serif;
+      font-size: 1.75rem;
+      margin: 0;
     }
-    h1, h2, h3 {
-      color: #444;
-    }
-    .package, .section {
-      margin-bottom: 2rem;
-    }
-    .code-box {
-      background-color: #eee;
-      padding: 0.5rem;
-      font-family: monospace;
-      display: inline-block;
+    nav {
       margin-top: 0.5rem;
     }
-    ul {
-      padding-left: 1.2rem;
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #fdfbe9;
+    }
+    .hero img {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+    .hero h2 {
+      font-family: 'Merriweather', serif;
+      font-size: 2.5rem;
+      margin: 1rem 0;
+      color: #1e3327;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #333;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h3 {
+      font-family: 'Merriweather', serif;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #1e3327;
+    }
+    .service-card {
+      background-color: #ffffff;
+      border: 2px solid #1e3327;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .service-card h4 {
+      margin: 0 0 0.5rem;
+      font-family: 'Merriweather', serif;
+      color: #1e3327;
+      font-size: 1.25rem;
+    }
+    .service-card ul {
+      margin-bottom: 1rem;
+    }
+    .service-card a button {
+      background-color: #fdfbe9;
+      border: 2px solid #d4af37;
+      color: #1e3327;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      font-family: 'Merriweather', serif;
+      cursor: pointer;
+    }
+    .results-section {
+      padding: 3rem 2rem;
+      background-color: #f8f4db;
+      overflow-x: auto;
+    }
+    .results-section h3 {
+      font-size: 2rem;
+      font-family: 'Merriweather', serif;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .results-section p {
+      text-align: center;
+      font-size: 1.1rem;
+      font-style: italic;
+      margin-bottom: 1rem;
+    }
+    .image-scroll {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      padding: 1rem 0;
+    }
+    .image-scroll img {
+      height: 200px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1e3327;
+      color: white;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+      font-size: 24px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Summer 2025 Detailing Services</h1>
-    <p>Professional. Reliable. Local through August 14th.</p>
+    <h1>Sponge N Hoses</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#results">Results</a>
+    </nav>
   </header>
 
-  <div class="container">
-    <div class="section">
-      <h2>Full Detailing Services</h2>
+  <section class="hero">
+    <img src="logo.png" alt="Sponge N Hoses Logo">
+    <h2>Sponge N Hoses Auto Detailing</h2>
+    <p>We Come to You</p>
+    <p>Premium Mobile Detailing in the St. Louis Metro Area</p>
+  </section>
 
-      <div class="package">
-        <h3>Full Interior Detail – $175</h3>
-        <ul>
-          <li>Full vacuum (carpets, seats, trunk)</li>
-          <li>Steam clean all surfaces, vents, and tight spaces</li>
-          <li>Shampoo carpets and seats / condition leather</li>
-          <li>Interior windows cleaned</li>
-          <li>Pet hair and stain removal included</li>
-          <li>Odor neutralizer</li>
-        </ul>
-      </div>
-
-      <div class="package">
-        <h3>Full Exterior Detail – $125</h3>
-        <ul>
-          <li>Hand wash and dry (2-bucket method)</li>
-          <li>Wheels and tires cleaned and shined</li>
-          <li>Iron remover and clay bar treatment</li>
-          <li>Exterior windows cleaned</li>
-          <li>Spray sealant for shine and paint protection</li>
-        </ul>
-      </div>
-
-      <div class="package">
-        <h3>Full Deep Clean (Interior + Exterior) – $250</h3>
-        <ul>
-          <li>Includes all services above</li>
-          <li>Ideal for restoring your car to a like-new feel</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2>Maintenance Plan – $50</h2>
-      <p><strong>Only available after a Full Deep Clean.</strong></p>
+  <section id="services" class="section">
+    <h3>Our Services</h3>
+    <div class="service-card">
+      <h4>Full Interior Detail – $175</h4>
       <ul>
-        <li>Full vacuum</li>
-        <li>Interior surface wipe-down</li>
-        <li>Interior and exterior window clean</li>
-        <li>Hand wash and dry</li>
-        <li>Wheels and tires cleaned and dressed</li>
+        <li>Steam clean, shampoo, vacuum</li>
+        <li>Pet hair & odor removal</li>
       </ul>
-      <p>One appointment every 30 days through <strong>August 14th</strong>.</p>
-      <p><strong>Access Code Required:</strong> Provided after your Deep Clean. Example:</p>
-      <div class="code-box">JOHNCMAINTAIN</div>
+      <a href="https://calendly.com/YOUR-CALENDLY-USERNAME/full-interior-detail" target="_blank"><button>Book Interior Detail</button></a>
     </div>
-
-    <div class="section">
-      <h2>"Pass It On" Referral Program</h2>
+    <div class="service-card">
+      <h4>Full Exterior Detail – $125</h4>
       <ul>
-        <li>Give a friend $50 off their first Full Interior Detail or Full Deep Clean</li>
-        <li>You receive $25 off your next full service when they book</li>
+        <li>Hand wash, clay bar, wheel shine</li>
+        <li>Spray sealant for protection</li>
       </ul>
-      <p>Referral codes look like: <span class="code-box">REFJOHN50</span></p>
-      <p>Once their service is complete, you’ll receive your credit code: <span class="code-box">JOHNNEXT25</span></p>
-      <p><strong>Note:</strong> Cannot be used on the Maintenance Plan.</p>
+      <a href="https://calendly.com/YOUR-CALENDLY-USERNAME/full-exterior-detail" target="_blank"><button>Book Exterior Detail</button></a>
     </div>
-  </div>
+    <div class="service-card">
+      <h4>Full Deep Clean – $250</h4>
+      <ul>
+        <li>Includes both interior and exterior</li>
+        <li>Perfect for restoring a like-new feel</li>
+      </ul>
+      <a href="https://calendly.com/YOUR-CALENDLY-USERNAME/full-deep-clean" target="_blank"><button>Book Full Detail</button></a>
+    </div>
+    <div class="service-card">
+      <h4>Maintenance Plan – $50</h4>
+      <ul>
+        <li>Available monthly after deep clean</li>
+        <li>Quick refresh to keep your car perfect</li>
+      </ul>
+      <a href="https://calendly.com/YOUR-CALENDLY-USERNAME/maintenance-plan" target="_blank"><button>Book Maintenance Plan</button></a>
+    </div>
+  </section>
+
+  <section id="results" class="results-section">
+    <h3>Results</h3>
+    <p>Consistent. Professional. Transformative.</p>
+    <div class="image-scroll">
+      <img src="Before 1.jpg" alt="Before 1">
+      <img src="After 1.jpg" alt="After 1">
+      <img src="Before 2.jpg" alt="Before 2">
+      <img src="After 2.jpg" alt="After 2">
+      <img src="Before 3.jpg" alt="Before 3">
+      <img src="After 3.jpg" alt="After 3">
+      <img src="Before 5.jpg" alt="Before 5">
+      <img src="After 5.jpg" alt="After 5">
+      <img src="Before 6.jpg" alt="Before 6">
+      <img src="After 6.jpg" alt="After 6">
+      <img src="Before 7.jpg" alt="Before 7">
+      <img src="After 7.jpg" alt="After 7">
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Your Business Name – All rights reserved</p>
+    <p>&copy; 2025 Sponge N Hoses Auto Detailing – STL Metro</p>
+    <div class="social-icons">
+      <a href="https://www.tiktok.com/@sponge.n.hoses" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.instagram.com/sponge.n.hoses" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/share/19gLft4TTm" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
   </footer>
 </body>
 </html>
+
 
