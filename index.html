@@ -209,6 +209,31 @@
       <a href="https://www.facebook.com/share/19gLft4TTm" target="_blank"><i class="fab fa-facebook"></i></a>
     </div>
   </footer>
+  <!-- Promo Popup -->
+<div id="promoPopup" style="display: none;">
+  <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+              background-color: rgba(0, 0, 0, 0.6); z-index: 9999;">
+    <div style="background-color: #fff; color: #1e3327; max-width: 400px;
+                margin: 15% auto; padding: 2rem; border-radius: 10px; text-align: center;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
+      <h3 style="margin-top: 0;">$25 Off Your First Service</h3>
+      <p>Use promo code <strong>WELCOME25</strong> when booking your first detail!</p>
+      <p style="font-size: 0.8rem; color: #555;">Promo codes cannot be combined.</p>
+      <button onclick="closePopup()" style="margin-top: 1rem; background-color: #1e3327;
+              color: white; border: none; padding: 0.5rem 1rem; border-radius: 5px;
+              cursor: pointer;">Close</button>
+    </div>
+  </div>
+</div>
+<script>
+  window.onload = function () {
+    document.getElementById("promoPopup").style.display = "block";
+  }
+
+  function closePopup() {
+    document.getElementById("promoPopup").style.display = "none";
+  }
+</script>
 </body>
 </html>
 
